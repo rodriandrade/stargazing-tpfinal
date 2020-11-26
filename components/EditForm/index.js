@@ -95,7 +95,7 @@ const EditForm = ({values, handleEditFormClose}) => {
                         <ErrorMessage name="description" component="div" />
                     </div>
 
-                    <button type="submit" disabled={isSubmitting} className="orange">
+                    <button type="submit" disabled={isSubmitting}>
                         Enviar
                     </button>
                 </Form>
